@@ -1,0 +1,101 @@
+<center><h1>¡CONTACTENOS!<h1></center>
+
+<table>
+<tr>
+<td> <a href="index(1).html"> INICIO </a></td>  
+<td> <a href="mision.html"> MISION </a></td>
+<td> <a href="vision.html"> VISION </a></td>
+<td> <a href="productos.html"> PRODUCTOS </a> </td>
+<td> <a href="contactenos.html"> CONTACTENOS </a></td>
+</tr>
+</table>
+
+<div align="right">
+<table witdh="158" border="0">
+<tr>
+<td width="50" height="44"><div align="left"><img src="IMG/facebook.png" width="50" height="40"/></div></td>
+<td width="50" height="44"><div align="left"><img src="IMG/instagram.png" width="50" height="40"/></div></td>
+<td width="50" height="44"><div align="left"><img src="IMG/x_logo.jpg" width="50" height="40"/></div></td>
+<td width="50" height="44"><div align="left"><img src="IMG/WhatsApp.png" width="50" height="40"/></div></td>
+</tr>
+</table>
+</div>
+
+
+<center><h1>CUALQUIER INQUIETUD<h1></center>
+
+<body bgcolor="#069999">
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctenos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        form label {
+            display: block;
+            margin: 0.5rem 0 0.2rem;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 0.7rem 1.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contáctenos</h1>
+    </header>
+    <div class="container">
+        <form action="enviar_formulario.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
+
